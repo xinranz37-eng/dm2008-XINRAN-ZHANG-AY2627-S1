@@ -1,4 +1,4 @@
-# Squishywishy
+# Pudding Squishy
 
 An interactive pudding toy made with p5.js.
 

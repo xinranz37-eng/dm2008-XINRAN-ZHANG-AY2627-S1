@@ -6,7 +6,7 @@ Xinran Zhang · AY2627 Semester 1
 
 - [Mini project: Ducky Bird](02-mini-project/README.md)
 - [Arduino Coding Jam: Opening Flower](03-sensor-jam/README.md)
-- [Final project: Squishywishy](04-final-project/README.md)
+- [Final project: Pudding Squishy](04-final-project/README.md)
 - [Final project reflection](04-final-project/reflection.md)
 - [Arduino photos and videos](arduino/documentation/)
 
@@ -36,7 +36,7 @@ Open the root `index.html` to browse the activities and projects. For Sensor Jam
 python3 -m http.server 8000
 ```
 
-Then open http://localhost:8000 in a browser. Sensor Jam uses Web Serial and requires a compatible browser such as Chrome. Squishywishy loads its libraries from a CDN and needs an internet connection. Ducky Bird currently has sound disabled; its optional audio requirements are listed in its project folder.
+Then open http://localhost:8000 in a browser. Sensor Jam uses Web Serial and requires a compatible browser such as Chrome. Pudding Squishy loads its libraries from a CDN and needs an internet connection. Ducky Bird currently has sound disabled; its optional audio requirements are listed in its project folder.
 
 ## Documentation
 
@@ -44,4 +44,4 @@ Activity documentation folders contain JPEG images and MP4 demonstrations. Ardui
 
 ## Credits
 
-The original creature drawings, early activity sketches, Sensor Jam, Ducky Bird and Squishywishy were supplied by the student. Additional activity implementations, repairs and documentation were prepared with Codex assistance. p5.js and other included libraries retain their original licenses.
+The original creature drawings, early activity sketches, Sensor Jam, Ducky Bird and Pudding Squishy were supplied by the student. Additional activity implementations, repairs and documentation were prepared with Codex assistance. p5.js and other included libraries retain their original licenses.
