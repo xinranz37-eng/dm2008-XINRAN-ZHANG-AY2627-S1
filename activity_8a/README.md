@@ -1,5 +1,18 @@
-# activity_8a · Light it Up
+# activity_8a - Light it Up
 
-Always on: 5V → 220–330 Ω resistor → LED anode; cathode → GND. Blink: pin 13 → its own resistor → LED → GND. Fade: PWM pin 9 → its own resistor → LED → GND. Disconnect USB before wiring. Run blink, fade, then combination. Combination follows the taught delay() approach. The fading updates once per blink cycle. Needed: four real setup photos and one video.
+## Code
 
-Open each sketch in its identically named folder in Arduino IDE. Code prepared with AI assistance; not compiled with an Arduino board core or tested on hardware in this session. Do not mark the physical activity complete until wired and observed.
+- [always_on.ino](always_on/always_on.ino): Constant power through the 5V rail.
+- [blink.ino](blink/blink.ino): On/off control on pin 13.
+- [fade.ino](fade/fade.ino): PWM brightness on pin 9.
+- [combination.ino](combination/combination.ino): Constant, blinking and fading LEDs together.
+
+Open one sketch at a time in Arduino IDE. Each .ino file is inside a folder with the same name. Select Arduino Uno and the correct port before uploading.
+
+## Setup
+
+Use a separate 220 or 330 ohm resistor for each LED. Connect each LED cathode to GND. Disconnect USB before changing wires. The always-on experiment uses the 5V rail; blink uses pin 13 and fade uses pin 9.
+
+## Documentation
+
+[Arduino photos and videos](../arduino/documentation/)

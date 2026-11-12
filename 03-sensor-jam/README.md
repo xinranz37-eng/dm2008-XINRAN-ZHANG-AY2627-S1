@@ -1,5 +1,18 @@
-# Sensor Jam · Opening Flower
+# Sensor Jam - Opening Flower
 
-Your existing flower sketch is preserved. Added sensor_sender/sensor_sender.ino sends one numeric distance per line at 9600 baud, matching parseFloat in your sketch. Use the course analog-output distance sensor on A0. Verify its model/conversion before connecting. Close Arduino Serial Monitor before clicking Connect to Arduino in Chrome on localhost.
+## Files
 
-Hardware run not verified. The included template dog image and documentation image are template assets, not evidence of your setup. Add 2–3 genuine setup photos, one demo video and screenshots of the flower reacting. No fabricated reflection or test result is included. Arduino sender prepared with Codex assistance.
+- [Arduino code](sensor_sender/sensor_sender.ino)
+- [p5.js sketch](sketch.js)
+- [Web page](index.html)
+- [Arduino photos and videos](../arduino/documentation/)
+
+## Setup
+
+Use the course analog-output distance sensor on A0. Upload sensor_sender.ino to the Arduino Uno. It sends one distance value per line at 9600 baud, matching the flower sketch. This conversion follows the course sensor; it is not for a trigger/echo HC-SR04.
+
+Close Arduino Serial Monitor, run the webpage on localhost in Chrome, and click Connect to Arduino. Move closer to open the flower and farther away to close it. The five pastel circles move smoothly between positions.
+
+## Running locally
+
+From the repository root, run `python3 -m http.server 8000` and open http://localhost:8000/03-sensor-jam/.

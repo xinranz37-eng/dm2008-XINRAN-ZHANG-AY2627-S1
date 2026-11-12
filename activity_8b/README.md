@@ -1,5 +1,17 @@
-# activity_8b · Sensor Check
+# activity_8b - Sensor Check
 
-Test sensors one at a time. Light module: SIG → A0, VCC → 5V, GND → GND; NC unconnected. Force sensor: 5V → FSR → A0 junction, with 10 kΩ from the junction to GND. Analog distance module: analog output → A0, power per its datasheet. The slides describe an analog-output ultrasonic sensor; HC-SR04 requires different wiring/code. The 520 cm full-scale conversion must match the actual module. Needed: 2–3 real photos and a demo video.
+## Code
 
-Open each sketch in its identically named folder in Arduino IDE. Code prepared with AI assistance; not compiled with an Arduino board core or tested on hardware in this session. Do not mark the physical activity complete until wired and observed.
+- [light.ino](light/light.ino): Phototransistor readings.
+- [force.ino](force/force.ino): Force sensor readings.
+- [analog_distance.ino](analog_distance/analog_distance.ino): Analog ultrasonic distance readings.
+
+Open one sketch at a time in Arduino IDE. Each .ino file is inside a folder with the same name. Select Arduino Uno and the correct port before uploading.
+
+## Setup
+
+Test one sensor at a time on A0. For the light module, connect SIG to A0, VCC to 5V and GND to GND. For the force sensor, connect one side to 5V and the other to A0, with a 10k ohm resistor between A0 and GND. The distance sketch follows the analog-output sensor and 520 cm conversion in the slides. It is not code for a trigger/echo HC-SR04. Use Serial Monitor at 9600 baud.
+
+## Documentation
+
+[Arduino photos and videos](../arduino/documentation/)
