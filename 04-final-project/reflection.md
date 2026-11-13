@@ -1,6 +1,6 @@
-# Pudding Squishy — Final Project Reflection
+# My Pudding Squishie — Final Project Reflection
 
-Our project, Pudding Squishy, is a digital squishy toy shaped like a pudding. We wanted to create a playful experience that feels soft and satisfying, even though the user is interacting with a screen. The pudding also reacts like a small character, encouraging users to explore how gently or roughly they treat it.
+Our project, My Pudding Squishie, is a digital squishy toy shaped like a pudding. We wanted to create a playful experience that feels soft and satisfying, even though the user is interacting with a screen. The pudding also reacts like a small character, encouraging users to explore how gently or roughly they treat it.
 
 The project uses mouse and touch input. Clicking or tapping starts an interaction, holding increases pressure, and dragging stretches the pudding in different directions. When released, it bounces back and plays a squish sound if sound is enabled. Stronger interactions can leave bruises or damage the chocolate topping, while quick taps create playful reactions.
 

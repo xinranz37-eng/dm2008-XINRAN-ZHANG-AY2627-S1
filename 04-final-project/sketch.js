@@ -1,5 +1,5 @@
 // =====================================================
-// PUDDING SQUISHY — COMPLETE ANNOTATED SKETCH
+// My Pudding Squishie — COMPLETE ANNOTATED SKETCH
 // =====================================================
 // 15 squishes: mini puddings begin splitting off.
 // Minis float for 30 seconds, then melt for 6 seconds.
